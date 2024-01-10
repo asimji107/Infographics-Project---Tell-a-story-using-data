@@ -205,6 +205,7 @@ In our concluding remarks, our scrutiny of climate change metrics from the World
     plt.figtext(0.5, 0.05, description_text, fontsize=10, ha='center', va='bottom', wrap=True)
     # Save the dashboard as an image with the student ID in the filename
     plt.savefig(f"{student_id}.png", bbox_inches='tight', dpi=300)
+    plt.show()
 
 
 
