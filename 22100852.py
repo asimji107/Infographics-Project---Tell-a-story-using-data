@@ -209,7 +209,7 @@ In our concluding remarks, our scrutiny of climate change metrics from the World
 
 
 # Data source: https://data.worldbank.org/topic/climate-change
-file_path = 'C:/Users/hadid/Downloads/WorldbankData.csv'
+file_path = 'WorldbankData.csv'
 skip_rows = 4
 
 data, transposed_data = read_world_bank_data(file_path, skip_rows)
